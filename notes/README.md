@@ -10,8 +10,17 @@
 
 ##### Notes
 [workshops](https://github.com/tensorflow/workshops)
+
 [Google crash course on machine
 learning](https://developers.google.com/machine-learning/crash-course/)
+
+[GANS](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/eager/python/examples/gan)
+
+[Auto complete drawing] (https://magenta.tensorflow.org/)
+
+[Google facets](https://pair-code.github.io/facets/)
+
+[Tensorflow wide and deep](https://www.tensorflow.org/tutorials/wide_and_deep)
 
 Four new API styles with recent release:
 - tf.keras
@@ -21,6 +30,10 @@ Four new API styles with recent release:
 
 Notebooks are downloaded and will be in the same directory as this project.
 
+Refer to the regression notebook for good code snippets w/r/t running
+models/early stoppage/and classes
+
+"Networks are happiest with data scaled from [-1,1] or [0,1]"
 
 ##### Thoughts
 Free web based jupyter notebook called [Colab](colab.research.google.com), offered from Google.  A free gpu-accelerated jupyter instance offered by Google.  We've heard of them, right?
