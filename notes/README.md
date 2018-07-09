@@ -11,8 +11,7 @@
 ##### Notes
 [workshops](https://github.com/tensorflow/workshops)
 
-[Google crash course on machine
-learning](https://developers.google.com/machine-learning/crash-course/)
+[Google crash course on machine learning](https://developers.google.com/machine-learning/crash-course/)
 
 [GANS](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/eager/python/examples/gan)
 
@@ -35,8 +34,24 @@ models/early stoppage/and classes
 
 "Networks are happiest with data scaled from [-1,1] or [0,1]"
 
+L1 regularization may aid in the testing validation/loss but not the training.  
+
+JS tensorflow allows model interaction from the web now.  [JS
+tensorflow](js.tensorflow.org)
+
+
+May be worth getting the deep learning and python book from manning publications
+###### Eager execution
+Must be called immediately after the import.  This doesn't do graph-based
+execution and does not need a session.
+
+
+There is a large performance penalty for using this.  But it makes debugging
+easier, and allows the generation of models otherwise impossible
+
 ##### Thoughts
-Free web based jupyter notebook called [Colab](colab.research.google.com), offered from Google.  A free gpu-accelerated jupyter instance offered by Google.  We've heard of them, right?
+Free web based jupyter notebook called [Colab](colab.research.google.com), offered from Google.
+A free gpu-accelerated jupyter instance offered by Google.  We've heard of them, right?
 
 Man even tensorflow is using keras.  You can now write your models in Keras and then import them
 
