@@ -97,7 +97,54 @@ time where similar problems in R have come back to bite me.
 I want to keep an eye on it and see the changes that are announced with 0.7
 release.  
 
+### Open source tools
+####
+Notes/results for this talk are available here [Open source
+tutorial](https://github.com/bdkech/hugs-bdkech)
 
+[Also here](https://jrleeman.github.io/SettingUpOpenSource/)
+
+### Bayesian models
+Notebooks are available as part of the repo
+
+Mike potencoat?  He has a blog about bayesian models
+
+kale divergence between two curves for ECDF and CDF 
 ## Talks
+### SciKit build
+[Python package life cycle](packaging.python.org)
+Refer to the packaging tutorial from SciPy 2018.
+
+Attempts to be a bridge between cmake, existing projects, and the python
+ecosystem.  Here the hope is to allow quicker cross-compliation.  
+
+- not meant to reinvent the whl
+- its part of the building workflow
+- it *is* a drop in replacement 
+- has support for developer mode (pip install -e)
+[presentation slides](bit.ly/scikit-build-talk)
+[project](github.com/scikit-build/scikit-build)
+
+### AutoML
+#### Randal Olson
+Talked with Randal about autoML and our datasets.  He agreed the data itself is
+too wide, and most autoML frameworks would fail to find adequate models.  He
+suggested tpot, tpotmdr, and scikit-rebate.  These are made to work on wider
+datasets and could be useful.  Also he agreed the approach of finding
+coefficients and then using that as a selection criteria could help in the
+approaches.
+
+### Apache Ray
+#### Rise labs
+
+Man this has come a long way since it originally came out.  I think its worth
+looking into how it handles its execute orders and everything.  I'm not sure if
+you can get it to plug into actual schedulers and execution engines.  We'll see.
+It has matured a great deal over a year.  Pretty interesting.
 
 ## Posters/Lightening talks
+
+## General chats
+
+[Github project for data
+management](https://github.com/Morgan243/InteractiveDataTree)
