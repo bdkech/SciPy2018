@@ -124,9 +124,8 @@ ecosystem.  Here the hope is to allow quicker cross-compliation.
 - has support for developer mode (pip install -e)
 [presentation slides](bit.ly/scikit-build-talk)
 [project](github.com/scikit-build/scikit-build)
-
 ### AutoML
-#### Randal Olson
+#### Randal OlsonTt
 Talked with Randal about autoML and our datasets.  He agreed the data itself is
 too wide, and most autoML frameworks would fail to find adequate models.  He
 suggested tpot, tpotmdr, and scikit-rebate.  These are made to work on wider
@@ -141,6 +140,61 @@ Man this has come a long way since it originally came out.  I think its worth
 looking into how it handles its execute orders and everything.  I'm not sure if
 you can get it to plug into actual schedulers and execution engines.  We'll see.
 It has matured a great deal over a year.  Pretty interesting.
+
+### Tools plenary session
+#### NumPy 
+I didn't realize this was pronounced Num-pee.  You learn something new everyday.  
+Some of the updates do better handling of temporary data.  Other low level stuff
+that didn't really impact me
+
+#### Pandas
+PARQUET! PARQUET FORMAT WOOOHOO!  Also they're getting S3 support; generally
+being extensible for other formats.
+
+Deprecation of ix.
+
+The introduction of the pandas datatypes.  You can define your own array-like
+and tell pandas how to work with it.  
+
+Exciting times
+
+#### Matplotlib
+Dropping python 2.7!!
+
+v2.2 is going to be the next LTS.  Still supports 2.7; 3.0 requires python 3.x
+
+constrained layout manager, so now it can try and fit everything for you.  
+
+#### Scikit-learn
+Lots of new stuff coming in the next release.  
+
+One hot encoder for strings is on the way.  
+Column transformer -> lets you convert things to a numpy array/pandas frame and
+then a mask to apply transformations on particular columns.
+
+#### Conda
+Don't care.
+
+### Apache Arrow
+#### Wes McKinney
+
+Gpu support and stuff for arrow:
+gpuopenanalytics.com
+### CIS interface
+
+communication between models in different langs
+reduce complexity of writing models
+
+This is available from pip.  Seems really interesting, yml file that defines
+connections/dependencies.  Data goes right between the models, no intermediates.
+
+My thoughts with this revolve around making some computational framework for
+people to generate workflows.  Imagine an API that can report models in your
+library, what they require, and then the capability to upload a yml file to the
+API to handle execution.  There would need to be some quality of life
+improvements done.  Combine that with Morgans interactive data tree project and
+now you've got an ecosystem where you can easily traverse datasets AND models
+WITH an added ability to do complex execute tasks. 
 
 ## Posters/Lightening talks
 
