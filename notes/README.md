@@ -139,7 +139,7 @@ approaches.
 Man this has come a long way since it originally came out.  I think its worth
 looking into how it handles its execute orders and everything.  I'm not sure if
 you can get it to plug into actual schedulers and execution engines.  We'll see.
-It has matured a great deal over a year.  Pretty interesting.
+It has matured a great deal over a year.  Pretgitty interesting.
 
 ### Tools plenary session
 #### NumPy 
@@ -196,8 +196,11 @@ improvements done.  Combine that with Morgans interactive data tree project and
 now you've got an ecosystem where you can easily traverse datasets AND models
 WITH an added ability to do complex execute tasks. 
 
-## Posters/Lightening talks
 
+### Later talks to come
+## Posters/Lightening talks
+Open Ocean??  ---> using docker/"pods" for sharing reporducible research
+[githubg - dvid : janelia-flyem](https://github.com/janelia-flyem)
 ## General chats
 
 [Github project for data
